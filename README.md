@@ -5,8 +5,7 @@ Their shoes are all stored in a MySQL database. As a new season starts, the shop
 Due to that following csv file has to be put into the MySQL database.
 
 Please write a php script:
- Numbered list:
- 
+
    1.  generates two new csv files one should only contains "Herren" related data, the other only  "Damen" related data.
      sorting: (Produktname | Anzahl im Lager | Material | Schuhgröße)
    2. Remove all shoes from the final csv files, which aren't in store (Anzahl im Lager = 0),
